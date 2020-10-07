@@ -6,6 +6,7 @@
 body{
 	background-color: black;
     color: white;
+  
 }
 
 header{
@@ -93,7 +94,7 @@ footer{
 }
 
  .noticia{
- 	text-align: center;
+ 	text-align: justify;
     padding-right: 300px;
     padding-left: 300px;
     font-size: 80%;
@@ -134,6 +135,7 @@ p{
     transition-duration: 3s,2s,3s,2s,3s,2s;
     transition-timing-function: ease;
     transition-delay: 0s, 0s, 0s, 0s, 0s;
+
 
     
   }
