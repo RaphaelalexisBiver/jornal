@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
 	background-color: black;
     color: white;
@@ -5,21 +10,22 @@ body{
 
 header{
 	text-align: center;
-	background-color: #5F5F5F;
+	background-color: #231F1F;
 	color: white;
 }
 
 img{
 padding: 20px;
-margin-left: 23%;
+margin-left: 28%;
 width: 40%;
+
 }
 
 }
 
  #menu ul {
     padding:0px;
-    margin:0px;
+    margin top:0px;
     background-color:#EDEDED;
     list-style:none;
 }
@@ -47,11 +53,29 @@ main{
 	padding: 24px
 }
 
+
+
 .centralizar{
 	text-align: center;
+    margin-top: 20px;
+    font-size: 250%;
+
 }
+
+
+footer{
+ 
+    text-align: center;
+    background-color: #231F1F;
+    color: white;
+    
+    
+}
+
 .titulo{
 	text-align: center;
+    margin-top: 24px;
+   
     
 }
 
@@ -65,12 +89,49 @@ main{
 
  article{
  	clear: left;
+
  }
 
-
+p{
+   padding: 5px;
+   text-align: center;
+}
  
- 
+ .borda{
+    border: double;
+    border-color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
 
+ }
+  iframe{
+    margin-left: 26%;
+  }
 
+  #jornal{
+    font-size: 260%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 42%;
+    margin-left: 42%;
+    
+  }
 
+  #jornal:hover{
+      background-color: #BABABA;
+      }
 
+a:link{
+    color: #F30101;
+    
+}
+
+a:visited{
+    color: #F933BA;
+}
+
+main{
+    margin: 20px;
+}
