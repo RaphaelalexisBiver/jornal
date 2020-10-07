@@ -50,7 +50,8 @@ width: 40%;
 
 main{
 	background-color: #5F5F5F;
-	padding: 24px
+	padding: 24px;
+    margin: 20px;
 }
 
 
@@ -75,8 +76,20 @@ footer{
 .titulo{
 	text-align: center;
     margin-top: 24px;
-   
-    
+    animation-name:aumentar;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes aumentar{
+    from{
+        letter-spacing: 2px
+    }
+    to{ letter-spacing:10px; 
+    }
+
 }
 
  .noticia{
@@ -107,7 +120,8 @@ p{
 
  }
   iframe{
-    margin-left: 26%;
+    margin-left: 23%;
+    border-radius: 5px;
   }
 
   #jornal{
@@ -116,9 +130,15 @@ p{
     margin-top: 5px;
     margin-right: 42%;
     margin-left: 42%;
+    transition-property: font-size:100%; transform: rotate(90deg, -270deg, 4turn); background-color:  #5F5F5F; color: black;
+    transition-duration: 3s,2s,3s,2s,3s,2s;
+    transition-timing-function: ease;
+    transition-delay: 0s, 0s, 0s, 0s, 0s;
+
     
   }
 
+}
   #jornal:hover{
       background-color: #BABABA;
       }
@@ -132,6 +152,5 @@ a:visited{
     color: #F933BA;
 }
 
-main{
-    margin: 20px;
-}
+
+    
